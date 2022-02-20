@@ -19,7 +19,7 @@ const List =  ({data,setData,uid,handledAccion}) => {
 
     useEffect(() => {
         const arr = [];
-        for (let index = 0; index < 10; index++) {
+        for (let index = 0; index < 15; index++) {
             if(index === data.data.length) break;
             arr.push(data.data[index]);
         }
@@ -95,7 +95,7 @@ const List =  ({data,setData,uid,handledAccion}) => {
                 data={preLoadList} 
                 renderItem={ lista } 
                 keyExtractor={ keyExtractor } 
-                onEndReachedThreshold={.5}
+                onEndReachedThreshold={.3}
                 onEndReached={ loadData }
                 ListFooterComponent={spinnerGetData}
                 removeClippedSubviews={true}
