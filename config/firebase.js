@@ -3,24 +3,24 @@ import { createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWith
 import { doc, setDoc, getFirestore, getDoc } from "firebase/firestore";
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const firebaseConfig = {
-  apiKey: "AIzaSyDi8bEuFPPF8okv_WjdMEuAupUG836KHDs",
-  authDomain: "prueba-2f917.firebaseapp.com",
-  projectId: "prueba-2f917",
-  storageBucket: "prueba-2f917.appspot.com",
-  messagingSenderId: "1028798509980",
-  appId: "2:1028798509980:web:4c5a6b75617ad842b34e59"
-};
-
 // const firebaseConfig = {
-// 	apiKey: "AIzaSyAqiHj0iaHv3a6fTkPFaTJeb_eAtAc_Auw",
-// 	authDomain: "passwallet-d8c64.firebaseapp.com",
-// 	projectId: "passwallet-d8c64",
-// 	storageBucket: "passwallet-d8c64.appspot.com",
-// 	messagingSenderId: "711833623616",
-// 	appId: "1:711833623616:web:f27313a19cd9197c8113a5",
-// 	measurementId: "G-9M47XVG7N8"
+//   apiKey: "AIzaSyDi8bEuFPPF8okv_WjdMEuAupUG836KHDs",
+//   authDomain: "prueba-2f917.firebaseapp.com",
+//   projectId: "prueba-2f917",
+//   storageBucket: "prueba-2f917.appspot.com",
+//   messagingSenderId: "1028798509980",
+//   appId: "2:1028798509980:web:4c5a6b75617ad842b34e59"
 // };
+
+const firebaseConfig = {
+	apiKey: "AIzaSyAqiHj0iaHv3a6fTkPFaTJeb_eAtAc_Auw",
+	authDomain: "passwallet-d8c64.firebaseapp.com",
+	projectId: "passwallet-d8c64",
+	storageBucket: "passwallet-d8c64.appspot.com",
+	messagingSenderId: "711833623616",
+	appId: "1:711833623616:web:f27313a19cd9197c8113a5",
+	measurementId: "G-9M47XVG7N8"
+};
 
 const firebaseApp = initializeApp(firebaseConfig);
 const auth = getAuth(firebaseApp);

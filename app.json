@@ -4,9 +4,9 @@
     "slug": "passWalletMovil",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/lock.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/lock.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -28,7 +28,7 @@
       "versionCode": 1
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/lock.png"
     }
   }
 }
