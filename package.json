@@ -10,12 +10,24 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "~1.15.0",
+    "crypto-js": "^4.1.1",
     "expo": "~44.0.0",
+    "expo-firebase-analytics": "~6.0.0",
+    "expo-navigation-bar": "~1.1.1",
     "expo-status-bar": "~1.2.0",
+    "expo-updates": "~0.11.6",
+    "firebase": "^9.6.6",
+    "native-base": "^3.3.5",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
-    "react-native-web": "0.17.1"
+    "react-native-crypto-js": "^1.0.0",
+    "react-native-reanimated": "^2.4.1",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-svg": "12.1.1",
+    "react-native-web": "0.17.1",
+    "reactfire": "^4.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
