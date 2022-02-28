@@ -39,7 +39,7 @@ PassWallet es una aplicación crea con la finalidad de almacenar de manera segur
 ---
 ## **Application view**
 - _Login:_
-![Login](./caps/loging.webp)
+![Login](./caps/Loging.webp)
 - _Dashboard:_
 ![Dashboard](./caps/Home.webp)
 - _New Data:_
